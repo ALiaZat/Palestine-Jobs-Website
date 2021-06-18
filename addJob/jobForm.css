@@ -1,0 +1,71 @@
+.contact-form {
+    margin-top: 8%;
+    margin-bottom: 5%;
+    width: 70%;
+    border-radius: 32px;
+    height: 70em;
+    border: 10px solid #f58b51;
+    border-radius: 3%;
+    justify-content: center;
+    margin-left: 13em;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-form form {
+    padding: 14%;
+}
+
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-form h2 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #f58b51;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.contact-form .btnContact {
+    width: 45%;
+    border: none;
+    border-radius: 1rem;
+    padding: 4%;
+    background: #f58b51;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transform: translate(155%, 90%);
+    font-size: 16px;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+label {
+    color: #f58b51;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.for-nav .main-nav .nav-links {
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+}

@@ -1,0 +1,114 @@
+.for-nav .main-nav .nav-links {
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+}
+
+.search-sec {
+    background-color: #767c83;
+    top: 75%;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.intro::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.intro img {
+    float: right;
+    height: 75%;
+    width: 50%;
+    margin: 16px;
+}
+
+.a-us {
+    display: flex;
+    flex-flow: row;
+    margin-top: -8px;
+    /* padding-left: 50px; */
+}
+
+.about-us {
+    background-color: #ffe0aac2;
+    border-radius: 69% 31% 28% 72% / 58% 55% 45% 42%;
+    width: 380px;
+    height: 300px;
+    margin-left: 80px;
+}
+
+.about-us h1 {
+    color: #406da4;
+    padding: 92px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.about-us i {
+    font-size: 30px;
+    color: #f8ba4fc2;
+}
+
+.text {
+    float: right;
+    width: 45%;
+}
+
+.text p {
+    color: #406da4;
+    padding: 85px;
+}
+
+.text i {
+    font-size: 25px;
+    color: #f8ba4fc9;
+}
+
+
+/* Collapsing Navbar Styles */
+
+@media(min-width:768px) {
+    .navbar-default {
+        -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
+        padding: 15px 0;
+        /* Add additional styles here for the UNCOLLAPSED state */
+    }
+    .navbar-default.affix {
+        padding: 0;
+        /* Add additional styles here for the COLLAPSED state */
+    }
+}
+
+
+/* Header Styles for Demo */
+
+header {
+    padding: 300px;
+    text-align: center;
+    background-image: url(https://unsplash.it/800?image=974
+);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header h1 {
+    color: white;
+    font-size: 2em;
+}

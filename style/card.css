@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+.cards {
+    text-align: center;
+    padding: 10px;
+}
+
+.cards .card {
+    width: 285px;
+    height: 55%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding: 14px;
+    margin: 14px;
+    box-shadow: 0 10px 17px 0 #f9d9a363, 0 6px 20px 0 #d5d5d5c7;
+}
+
+.cards img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.btn {
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: rgba(255, 187, 187, 0.863);
+    color: rgb(39, 39, 39);
+}
+
+.cards .card h3 {
+    color: #406da4;
+}
+
+.featured {
+    color: #406da4;
+    font-family: monospace;
+    font-size: 45px;
+}
+
+.ff {
+    width: 62%;
+    margin-left: 232px;
+}
+
+.f .ff hr {
+    color: #f9c974;
+}
+
+.f h3 {
+    color: #406da4;
+    font-size: 32px;
+    font-family: monospace;
+    transform: translate(12px, -34px);
+}
+
+.row-col {
+    display: flex;
+    height: 82%;
+    margin-top: 15%;
+}
+
+.grid-col {
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    border: 0.25px solid #c1bdbdc2;
+    height: 85%;
+    width: 100%;
+    font-family: monospace;
+    border-radius: 10%;
+    box-shadow: 0 10px 17px 0 #fff6e6c4, 0 6px 20px 0 #d4d4d4bd;
+}
+
+.grid-col pre {
+    display: block;
+    padding: 9.5px;
+    margin: -18px 0 10px;
+    font-size: 19px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.grid-col h2 {
+    color: #ffca6d;
+    margin-top: 45px;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.intro .search-bar {
+    height: 84%;
+    width: 200%;
+    /* position: relative;
+    display: flex; */
+    /* flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word; */
+    background-color: rgb(196, 29, 29);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    /* transform: translate(10%, 208%); */
+    top: 189%;
+    left: -54%;
+}

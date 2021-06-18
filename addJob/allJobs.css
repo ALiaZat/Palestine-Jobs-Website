@@ -1,0 +1,52 @@
+
+/* vvvvvvvvvvvvvvvvvvv*/
+.our-plans{
+  width:100%;
+}
+.our-plans .price-plan{
+  width:90%;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 #fadaa2c2, 0 6px 20px 0 rgba(165, 153, 153, 0.19);
+}
+.our-plans .price-plan:last-child{
+  margin-bottom: 0;
+}
+.our-plans .price-plan .plan-details,
+.our-plans .price-plan .plan-features,
+.our-plans .price-plan .accept-plan{
+  float:left;
+  padding: 0 10px;
+}
+.our-plans .price-plan .plan-details{
+  width: 25%;
+}
+.our-plans .price-plan .plan-features{
+  width:55%;
+}
+.our-plans .price-plan .accept-plan{
+  width:20%;
+}
+
+/* plan details ends here */
+.our-plans .price-plan .accept-plan{
+  text-align: center;
+}
+.our-plans .price-plan .accept-plan a{
+  text-align: center;
+  padding: 5px 20px;
+  color: #fff;
+  border-radius: 27px;
+  margin-top: 20%;
+  display: inline-block;
+}
+.our-plans .price-plan .accept-plan a:hover{
+  background:#272d33;
+}
+.our-plans .price-plan .plan-details img{
+  height: 130px;
+  width: 61%;
+}
+
